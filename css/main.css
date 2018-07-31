@@ -11,10 +11,6 @@ body{
     
 }
 
-/* .yellow{
-    background-size: cover;
-} */
-
 .drive{
     background-size: cover;
     background-image: url(../assets/images/conduce.jpg);
@@ -24,4 +20,14 @@ body{
 .opacity{
     height: 75vh;
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+.footer-img{
+    width: 11vw;
+}
+
+@media(max-width:575px){
+    .footer-img{
+        width: 30vw;
+    }
 }
