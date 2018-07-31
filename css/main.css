@@ -1,1 +1,27 @@
 /* Los estilos de tu proyecto */
+body{
+    height: 100vh;
+    margin: 0%;
+}
+
+.taxi{
+    background-size: cover;
+    background-image: url(../assets/images/taxi.jpg); 
+    background-position: 100% 100%; 
+    
+}
+
+/* .yellow{
+    background-size: cover;
+} */
+
+.drive{
+    background-size: cover;
+    background-image: url(../assets/images/conduce.jpg);
+    background-position: 100% 100%; 
+}
+
+.opacity{
+    height: 75vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
